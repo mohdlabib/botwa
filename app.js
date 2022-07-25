@@ -7,7 +7,7 @@ const qrcode = require('qrcode')
 const http = require('http')
 
 // port and api url
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 2117
 
 const client = new Client({
   restartOnAuthFail: true,
