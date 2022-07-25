@@ -21,6 +21,7 @@ const client = new Client({
       '--no-first-run',
       '--no-zygote',
       '--single-process', // <- this one doesn't works in Windows
+      '--use-gl=egl',
       '--disable-gpu'
     ],
   },
